@@ -1,0 +1,58 @@
+[
+ {
+  "id": 1,
+  "nombre": "galleta Don Satur",
+  "precio": "250",
+  "descripcion": "800gr",
+  "foto": "https://carrefourar.vtexassets.com/arquivos/ids/171127/7795735000335_02.jpg?v=637468538138030000",
+  "stock": "en stock"
+ },
+ {
+  "id": 2,
+  "nombre": "galleta pepitos",
+  "precio": "300",
+  "descripcion": "40gr",
+  "foto": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/182/795/products/galleta-pepito-original-119-g1-158714cb3c1e1715fa16164254899493-640-0.webp",
+  "stock": "en stock"
+ },
+ {
+  "id": 3,
+  "nombre": "alfajor jorgito",
+  "precio": "180",
+  "descripcion": "chocolate",
+  "foto": "https://cdn11.bigcommerce.com/s-3stx4pub31/images/stencil/1280x1280/products/622/14113/Jorgito_Negro__71583.1645189276.1280.1280__06274.1657140679.jpg?c=2",
+  "stock": "en stock"
+ },
+ {
+  "id": 4,
+  "nombre": "mayonesa helmans",
+  "precio": "200",
+  "descripcion": "125",
+  "foto": "https://http2.mlstatic.com/D_NQ_NP_756632-MLA54978567396_042023-O.webp",
+  "stock": "en stock"
+ },
+ {
+  "id": 5,
+  "nombre": "coca cola",
+  "precio": "650",
+  "descripcion": "2.25L",
+  "foto": "https://www.casa-segal.com/wp-content/uploads/2020/03/coca-cola-225L-almacen-gaseosas-casa-segal-mendoza-600x600.jpg",
+  "stock": "en stock"
+ },
+ {
+  "id": 6,
+  "nombre": "pan rallado",
+  "precio": "200",
+  "descripcion": "s",
+  "foto": "",
+  "stock": "en stock"
+ },
+ {
+  "nombre": "yerba cahamate",
+  "precio": "500",
+  "descripcion": "40gr",
+  "foto": "",
+  "stock": "sin stock",
+  "id": 7
+ }
+]
