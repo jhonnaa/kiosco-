@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker&family=Mitr&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cont-grid">
+    <%- include('partials/header') %>
+  
+
+    <div class="cont-form">
+        <form class="form-add" action="/agregar" method="POST" >
+            <label for="nombre"> Nombre:<input name="nombre" class="editInput" type="text"></label>
+            <label for="precio">Precio: <input name="precio" class="editInput" type="text"></label>
+            <label for="descripcion">Descripcion:<input name="descripcion" class="editInput" type="text"></label>
+            <label for="foto">Foto: <input name="foto" class="editInput" type="text"></label>
+            <label for="stock"><select name="stock" id="stock"><option value="en stock">en stock</option> <option value="sin stock">sin stock</option></label></select>
+            
+            <div class="cont-btns" >
+                <a href="/"><button type="button" class="btn-eliminar">CANCELAR</button></a>
+                <button type="submit" class="btn-editar">AGREGAR</button>
+            </div>
+        </form>
+    </div>
+        
+    
+    </div>
+</body>
+</html>

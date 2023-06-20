@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker&family=Mitr&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cont-grid">
+    <%- include('partials/header') %>
+    <div class="cont-form">
+
+        <form class="editForm" action="/update/<%= producto.id %>?_method=PUT" method="POST">
+            <label for="nombre"> Nombre:<input class="editInput" type="text" name="nombre" value= "<%= producto.nombre %>"  ></label>
+            <label for="precio">Precio: <input class="editInput" type="text" name="precio" value= "<%= producto.precio %>"></label>
+            <label for="descripcion">Descripcion:<input class="editInput" type="text" name="descripcion" value= "<%= producto.descripcion %>" ></label>
+            <label for="foto">Foto: <input class="editInput" type="text" name="foto" value= <%= producto.foto %> ></label>
+            <label for="stock"><select name="stock" id="stock"><option value="en stock">en stock</option> <option value="sin stock">sin stock</option></label></select>
+            <div class="cont-btns" >
+                <a href="/"><button type="button" class="btn-eliminar">CANCELAR</button></a>
+                <button type="submit" class="btn-editar">EDITAR</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

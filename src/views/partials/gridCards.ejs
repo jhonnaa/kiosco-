@@ -1,0 +1,23 @@
+
+
+
+<div class="cont-grid-cards">
+    <%producto %>
+    <% for (let i = 0; i < producto.length ; i++) { %>
+    <div class="grid-item">
+        
+            <div id="card" class="card " >
+                <div class="poligon">$<%= producto[i].precio %></div>
+                <div class="cont-img"><div class="img"><img src= <%= producto[i].foto %>  alt=""></div></div>
+                <div class="text">
+                    <span class="card-titulo"><%= producto[i].nombre %> </span>
+                    <span class="card-subtitulo"><%= producto[i].descripcion %></span>
+                    <span hidden id="id"><%= producto[i].id %></span>
+                    <span><%= producto[i].stock %></span>
+                </div>
+            </div>
+            
+
+    </div>
+    <% } %>
+</div>
