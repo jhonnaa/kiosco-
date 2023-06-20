@@ -38,21 +38,5 @@
   "descripcion": "2.25L",
   "foto": "https://www.casa-segal.com/wp-content/uploads/2020/03/coca-cola-225L-almacen-gaseosas-casa-segal-mendoza-600x600.jpg",
   "stock": "en stock"
- },
- {
-  "id": 6,
-  "nombre": "pan rallado",
-  "precio": "200",
-  "descripcion": "s",
-  "foto": "",
-  "stock": "en stock"
- },
- {
-  "nombre": "yerba cahamate",
-  "precio": "500",
-  "descripcion": "40gr",
-  "foto": "",
-  "stock": "sin stock",
-  "id": 7
  }
 ]
