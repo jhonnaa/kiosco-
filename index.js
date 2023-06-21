@@ -12,7 +12,7 @@ const methodOverride = require('method-override')
 app.use(methodOverride('_method'))
 
 app.set('view engine', 'ejs');
-app.set('views', __dirname + '/src/views/docs')
+app.set('views', __dirname + '/src/views')
 
 app.use(express.urlencoded({ extended: false }));
 
